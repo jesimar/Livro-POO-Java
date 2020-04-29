@@ -1,7 +1,7 @@
 # Projetos de Terceiros:
 
-Aqui estão disponibilizados alguns projetos de terceiros. Estes projetos estão disponibilizados para inspirar os alunos a criarem o seu próprio material. 
-Caso deseje recomendo baixar o conteúdo direto do site do autor original. Mas, foi também disponibilizado aqui caso o autor remova o link.
+Aqui estão disponibilizados alguns projetos de terceiros. Estes projetos foram disponibilizados para inspirar os alunos a criarem o seu próprio material. 
+Caso desejem baixar o material, recomendo baixar o conteúdo direto do site do autor original. Mas, foi também disponibilizado aqui caso o autor remova o link e assim não quebrar o link.
 
 | Nome Arquivo Local                        | Endereço do Projeto Original                   | Nome Arquivo Original       | Imagem                                                         |
 |-------------------------------------------|------------------------------------------------|-----------------------------|----------------------------------------------------------------|
