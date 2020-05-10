@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=PeixeDourado
+comment0.text=\n\ Write\ a\ description\ of\ class\ MeuPeixe\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=posX\ posY
+comment1.target=PeixeDourado(int,\ int)
+comment2.params=
+comment2.target=void\ act()
+numComments=3
