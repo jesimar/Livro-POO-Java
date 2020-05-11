@@ -2,11 +2,23 @@
 
 Aqui estão disponibilizados alguns projetos que foram utilizados no livro didático. 
 
-| Nome Arquivo Local                        | Conceitos Trabalhados                                                                   | Imagem                                                       |
-|-------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| project-hello-world.a3p		            | Animação, inserção de objetos, personagens e métodos simples                            | ![](../../../img/unidade1/secao2/animation-hello-world.png)  |
-| project-estudar-java.a3p                  | Animação, inserção de objetos, personagens e métodos mais elaborados                    | ![](../../../img/unidade1/secao2/animation-estudar-java.png) |
-| project-dancinha-alice.a3p		        | Animação, inserção de objetos, personagens e métodos com algumas estruturas de controle | ![](../../../img/unidade1/secao2/animation-danca.png)        |
-| project-sp-robo.a3p                       | Animação, inserção de objetos, movimentação da câmera                                   | ![](../../../img/unidade1/secao2/animation-robo-sp.png)      |
-| project-roteiro-aula-pratica.a3p          | Animação, inserção de objetos e personagens, criação de diálogos, estruturas de controle, alteração de valores das propriedades | ![](../../../img/unidade1/secao2/animation-aula-pratica.png) |
-| project-game.a3p          				| Jogo, interação com personagem através de eventos de teclado, mouse e tempo                                              | ![](../../../img/unidade1/secao2/game-dino.png)              |
+| Nome Arquivo Local | Conceitos Trabalhados                             | Imagem                                           |
+|--------------------|---------------------------------------------------|--------------------------------------------------|
+| project-01		 | Animação, peixe nadando para frente               | ![](../../../img/unidade1/secao3/project-01.png) |
+| project-02         | Animação, peixes nadando em circulo               | ![](../../../img/unidade1/secao3/project-02.png) |
+| project-03		 | Animação, diferentes objetos se deslocando        | ![](../../../img/unidade1/secao3/project-03.png) |
+| project-04         | Jogo, Movimentação do Personagem                  | ![](../../../img/unidade1/secao3/project-04.png) |
+| project-06         | Jogo/Simulação - Situação-Problema                | ![](../../../img/unidade1/secao3/project-06.png) |
+
+Comando para executar os jogos via terminal: 
+
+```
+$ "/usr/share/greenfoot/jdk/bin/java" -cp "/usr/share/greenfoot/javafx/lib/javafx.base.jar:/usr/share/greenfoot/javafx/lib/javafx.controls.jar:/usr/share/greenfoot/javafx/lib/javafx.fxml.jar:/usr/share/greenfoot/javafx/lib/javafx.graphics.jar:/usr/share/greenfoot/javafx/lib/javafx.media.jar:/usr/share/greenfoot/javafx/lib/javafx.properties.jar:/usr/share/greenfoot/javafx/lib/javafx.swing.jar:/usr/share/greenfoot/javafx/lib/javafx.web.jar:/home/jesimar/greenfoot/project-03-java.jar" --module-path "/usr/share/greenfoot/javafx/lib" --add-modules=ALL-MODULE-PATH greenfoot.export.GreenfootScenarioApplication
+```
+
+
+
+https://opengameart.org/content/cardboard-box256x256-vector-image
+https://opengameart.org/content/wooden-box256x256-vector-image
+https://opengameart.org/content/box-4
+https://opengameart.org/content/simple-toon-wooden-crate-texture
