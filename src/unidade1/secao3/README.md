@@ -8,7 +8,7 @@ Aqui estão disponibilizados alguns projetos que foram utilizados no livro didá
 | project-02         | Animação, peixes nadando em circulo               | ![](../../../img/unidade1/secao3/project-02.png) |
 | project-03		 | Animação, diferentes objetos se deslocando        | ![](../../../img/unidade1/secao3/project-03.png) |
 | project-04         | Jogo, movimentação do personagem                  | ![](../../../img/unidade1/secao3/project-04.png) |
-| project-06         | Jogo/Simulação - Situação-Problema                | ![](../../../img/unidade1/secao3/project-06.png) |
+| project-05         | Jogo/Simulação - Situação-Problema                | ![](../../../img/unidade1/secao3/project-05.png) |
 
 Comando para executar os jogos via terminal: 
 

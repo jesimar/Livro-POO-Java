@@ -73,3 +73,9 @@ A objeto deste repositório e promover a divulgação de todos os códigos-fonte
 
 * [[Códigos-Fonte](./src/unidade4/secao3/)]
 * [[Prints Telas](./img/unidade4/secao3/)]
+
+## Sugestões e Críticas
+
+Caso alguém tenha alguma sugestão, crítica ou outras contribuições de melhoria do livro, por favor, envie para jesimar.arantes@gmail.com com o assunto: "Sugestão-Correção Livro-POO-Java". 
+
+A sua contribuição será de grande valia para o nosso trabalho.
