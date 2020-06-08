@@ -1,3 +1,5 @@
+package outros;
+
 public class Robo4 {
     String nome = "R-ATM";
     float peso = 70;
