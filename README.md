@@ -24,43 +24,43 @@ A objeto deste repositório e promover a divulgação de todos os códigos-fonte
 
 #### Seção 1
 
-* [[Códigos-Fonte](./src/unidade2/secao1/)]
+* [[Códigos-Fonte](./Livro-POO-Java-Netbeans/src/code/unidade2/secao1/)]
 
 #### Seção 2
 
-* [[Códigos-Fonte](./src/unidade2/secao2/)]
+* [[Códigos-Fonte](./Livro-POO-Java-Netbeans/src/code/unidade2/secao2/)]
 
 #### Seção 3
 
-* [[Códigos-Fonte](./src/unidade2/secao3/)]
+* [[Códigos-Fonte](./Livro-POO-Java-Netbeans/src/code/unidade2/secao3/)]
 
 ### Unidade 3
 
 #### Seção 1
 
-* [[Códigos-Fonte](./src/unidade3/secao1/)]
+* [[Códigos-Fonte](./Livro-POO-Java-Netbeans/src/code/unidade3/secao1/)]
 
 #### Seção 2
 
-* [[Códigos-Fonte](./src/unidade3/secao2/)]
+* [[Códigos-Fonte](./Livro-POO-Java-Netbeans/src/code/unidade3/secao2/)]
 
 #### Seção 3
 
-* [[Códigos-Fonte](./src/unidade3/secao3/)]
+* [[Códigos-Fonte](./Livro-POO-Java-Netbeans/src/code/unidade3/secao3/)]
 
 ### Unidade 4
 
 #### Seção 1
 
-* [[Códigos-Fonte](./src/unidade4/secao1/)]
+* [[Códigos-Fonte](./Livro-POO-Java-Netbeans/src/code/unidade4/secao1/)]
 
 #### Seção 2
 
-* [[Códigos-Fonte](./src/unidade4/secao2/)]
+* [[Códigos-Fonte](./Livro-POO-Java-Netbeans/src/code/unidade4/secao2/)]
 
 #### Seção 3
 
-* [[Códigos-Fonte](./src/unidade4/secao3/)]
+* [[Códigos-Fonte](./Livro-POO-Java-Netbeans/src/code/unidade4/secao3/)]
 
 ## Sugestões e Críticas
 
