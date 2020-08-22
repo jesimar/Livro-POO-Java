@@ -13,6 +13,7 @@ public class ArrayMultidimensional {
         array.array2();
         array.array3();
         array.array4();
+        array.array5();
     }
     
     private void matriz(){
@@ -89,6 +90,27 @@ public class ArrayMultidimensional {
             for (int j = 0; j < mat[i].length; j++) {
                 System.out.println("mat[" + i + "][" + j + "] = " + mat[i][j]);
             }
+        }
+    }
+    
+    private void array5(){
+        System.out.println("Exemplo5");
+        boolean mat[][] = new boolean[12][];
+        for (int i = 0; i < mat.length; i++) {
+            if (i == 0 || i == 2 || i == 4 || i == 6 || i == 7 || i == 9 || i == 11) {
+                mat[i] = new boolean[31];
+            }else if (i == 3 || i == 5 || i == 8 || i == 10) {
+                mat[i] = new boolean[30];
+            }if (i == 1) {
+                mat[i] = new boolean[28];
+            }
+        }
+        for (int i = 0; i < mat.length; i++) {
+            System.out.print("mês[" + (i+1) + "] -> ");
+            for (int j = 0; j < mat[i].length; j++) {
+                System.out.print("  " + mat[i][j]);
+            }
+            System.out.println();
         }
     }
 }
