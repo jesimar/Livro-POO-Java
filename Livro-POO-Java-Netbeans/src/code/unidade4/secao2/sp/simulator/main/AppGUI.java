@@ -1,8 +1,10 @@
-package code.unidade4.secao1.sp.simulator.main;
+package code.unidade4.secao2.sp.simulator.main;
 
-import code.unidade4.secao1.sp.simulator.core.Caixa;
-import code.unidade4.secao1.sp.simulator.core.Mundo2D;
-import code.unidade4.secao1.sp.simulator.core.Robo;
+import code.unidade4.secao2.sp.simulator.core.Caixa;
+import code.unidade4.secao2.sp.simulator.core.Mundo2D;
+import code.unidade4.secao2.sp.simulator.core.Robo;
+import code.unidade4.secao2.sp.simulator.bd.ConexaoBD;
+import code.unidade4.secao2.sp.simulator.bd.Consultas;
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -10,6 +12,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
+import java.sql.Connection;
 
 /**
  *
@@ -50,6 +53,10 @@ public class AppGUI extends Application {
     private final Caixa caixaPrt[] = new Caixa[numCaixaPtr];
     private final Caixa caixaHd[][] = new Caixa[numCaixaHdPrateleira][numCaixaHd];
 
+    private final ConexaoBD conBD = new ConexaoBD();
+    private final Connection connection = conBD.getConexao();        
+    private final Consultas consultas = new Consultas();
+    
     public static void main(String[] args) {
         if (args.length != 0) {
             args[0] = args[0].toLowerCase();
@@ -71,6 +78,7 @@ public class AppGUI extends Application {
             }
             System.exit(0);
         }
+        
         launch(args);
     }
 
@@ -140,6 +148,8 @@ public class AppGUI extends Application {
                     robo.setPosicaoY(robo.getPosicaoY() - (int) robo.getVelocidade());
                     viewRobo.setTranslateX(robo.getPosicaoX());
                     viewRobo.setTranslateY(robo.getPosicaoY());
+                    consultas.inserirPos(connection, robo.getPosicaoX(), 
+                            robo.getPosicaoY());
                 }
             }
             if (evt.getCode() == KeyCode.DOWN) {
@@ -149,6 +159,8 @@ public class AppGUI extends Application {
                     robo.setPosicaoY(robo.getPosicaoY() + (int) robo.getVelocidade());
                     viewRobo.setTranslateX(robo.getPosicaoX());
                     viewRobo.setTranslateY(robo.getPosicaoY());
+                    consultas.inserirPos(connection, robo.getPosicaoX(), 
+                            robo.getPosicaoY());
                 }
             }
             if (evt.getCode() == KeyCode.LEFT) {
@@ -158,6 +170,8 @@ public class AppGUI extends Application {
                     robo.setPosicaoX(robo.getPosicaoX() - (int) robo.getVelocidade());
                     viewRobo.setTranslateX(robo.getPosicaoX());
                     viewRobo.setTranslateY(robo.getPosicaoY());
+                    consultas.inserirPos(connection, robo.getPosicaoX(), 
+                            robo.getPosicaoY());
                 }
             }
             if (evt.getCode() == KeyCode.RIGHT) {
@@ -167,6 +181,8 @@ public class AppGUI extends Application {
                     robo.setPosicaoX(robo.getPosicaoX() + (int) robo.getVelocidade());
                     viewRobo.setTranslateX(robo.getPosicaoX());
                     viewRobo.setTranslateY(robo.getPosicaoY());
+                    consultas.inserirPos(connection, robo.getPosicaoX(), 
+                            robo.getPosicaoY());
                 }
             }
             if (evt.getCode() == KeyCode.SPACE) {

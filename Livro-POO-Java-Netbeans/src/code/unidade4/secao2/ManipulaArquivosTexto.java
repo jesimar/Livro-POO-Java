@@ -17,7 +17,7 @@ public class ManipulaArquivosTexto {
     public static void main(String[] args) {
         ManipulaArquivosTexto texto = new ManipulaArquivosTexto();
         texto.leitura1();
-        texto.leitura2();
+        //texto.leitura2();
     }
 
     public void leitura1() {
@@ -26,10 +26,10 @@ public class ManipulaArquivosTexto {
             Scanner scanner = new Scanner(arquivo);
             while (scanner.hasNextLine()) {
                 String linha = scanner.nextLine();
-                System.out.printf("%s\n", linha);
+                System.out.printf("%s%n", linha);
             }
         } catch (FileNotFoundException ex) {
-            System.out.printf("Erro abertura do arquivo: %s.\n", ex.getMessage());
+            System.out.printf("Erro abertura do arquivo: %s.%n", ex.getMessage());
             System.exit(0);
         }
     }
@@ -40,15 +40,15 @@ public class ManipulaArquivosTexto {
             BufferedReader leitor = new BufferedReader(arquivo);
             String linha = leitor.readLine();
             while (linha != null) {
-                System.out.printf("%s\n", linha);
+                System.out.printf("%s%n", linha);
                 linha = leitor.readLine();
             }
             arquivo.close();
         } catch (FileNotFoundException ex) {
-            System.out.printf("Erro na abertura do arquivo: %s.\n", ex.getMessage());
+            System.out.printf("Erro na abertura do arquivo: %s.%n", ex.getMessage());
             System.exit(0);
         } catch (IOException ex) {
-            System.out.printf("Erro na leitura do arquivo: %s.\n", ex.getMessage());
+            System.out.printf("Erro na leitura do arquivo: %s.%n", ex.getMessage());
             System.exit(0);
         }
     }

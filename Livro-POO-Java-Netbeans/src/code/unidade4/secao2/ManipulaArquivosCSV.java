@@ -33,7 +33,7 @@ public class ManipulaArquivosCSV {
                 registroDados.add(getRegistroDaLinha(linha));
             }
         } catch (FileNotFoundException ex) {
-            System.out.printf("Erro abertura do arquivo: %s.\n", ex.getMessage());
+            System.out.printf("Erro abertura do arquivo: %s.%n", ex.getMessage());
             System.exit(0);
         }
         return registroDados;
