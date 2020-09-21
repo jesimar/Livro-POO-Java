@@ -2,10 +2,10 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://img.shields.io/badge/LIVRO-brightgreen.svg" alt="Linguagem Orientada a Objetos">
+    <img src="https://img.shields.io/badge/LIVRO-Linguagem Orientada a Objetos-brightgreen.svg" alt="Linguagem Orientada a Objetos">
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/Linguagem-blue.svg" alt="Java">
+    <img src="https://img.shields.io/badge/Linguagem-Java-blue.svg" alt="Java">
   </a>
 </p>
 
