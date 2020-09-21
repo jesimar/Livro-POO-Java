@@ -1,34 +1,37 @@
 package code.unidade4.secao1;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
  */
 public class ManipulaStrings {
     
     public static void main(String[] args) {
-        String str1 = new String("Orientação a objetos");
-        String str2 = "Orientação a objetos";
-        
-        StringBuilder str3 = new StringBuilder("Orientação a objetos");
-//        StringBuilder str4 = "Orientação a objetos";//não é aceito
-        
-        StringBuffer str5 = new StringBuffer("Orientação a objetos");
-//        StringBuffer str6 = "Orientação a objetos";//não é aceito
-        
-        System.out.println("str1: " + str1);
-        System.out.println("str2: " + str2);
-        System.out.println("str3: " + str3);
-//        System.out.println("str4: " + str4);
-        System.out.println("str5: " + str5);
-        
-        
         ManipulaStrings manipulaStrings = new ManipulaStrings();
+        manipulaStrings.criacaoLiterais();
         manipulaStrings.sequenciaDeCaracteres();
         manipulaStrings.metodosStrings();
         manipulaStrings.concatenaString();
         manipulaStrings.superConcatenacaoStrings();
         manipulaStrings.comparacaoStrings();
+    }
+    
+    //Código 4.5
+    public void criacaoLiterais(){
+        String str1 = new String("Orientação a objetos");
+        String str2 = "Orientação a objetos";
+        
+        StringBuilder str3 = new StringBuilder("Orientação a objetos");
+        //StringBuilder str4 = "Orientação a objetos";//não é aceito
+        
+        StringBuffer str5 = new StringBuffer("Orientação a objetos");
+        //StringBuffer str6 = "Orientação a objetos";//não é aceito
+        
+        System.out.println("str1: " + str1);
+        System.out.println("str2: " + str2);
+        System.out.println("str3: " + str3);
+        //System.out.println("str4: " + str4);
+        System.out.println("str5: " + str5);
+        //System.out.println("str6: " + str6);
     }
     
     public void sequenciaDeCaracteres(){
@@ -53,14 +56,10 @@ public class ManipulaStrings {
         for (String elem : sp) {
             System.out.println("elem: " + elem);
         }
-        
-        StringBuffer sBuffer = new StringBuffer("Jesimar");
+        StringBuffer sBuffer = new StringBuffer("Linguagem");
         System.out.println("reverse: " + sBuffer);
         sBuffer = sBuffer.reverse();
-        System.out.println("reverse: " + sBuffer);
-        
-//        StringBuilder sBuilder = "bla";// = new StringBuilder();
-        
+        System.out.println("reverse: " + sBuffer);        
     }
     
     public void concatenaString() {
@@ -81,10 +80,10 @@ public class ManipulaStrings {
     }
 
     public void comparacaoStrings() {
-        String s1 = "ola";
-        String s2 = new String("ola");
+        String s1 = "teste";
+        String s2 = new String("teste");
         String s3 = s1;
-        String s4 = new String("ola");
+        String s4 = new String("teste");
         System.out.printf("s2: %b\n", s1==s2);
         System.out.printf("s3: %b\n", s1==s3);
         System.out.printf("s3: %b\n", s2==s3);

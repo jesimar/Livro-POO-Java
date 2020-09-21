@@ -1,8 +1,8 @@
 package code.unidade3.secao1.sp.simulator.core;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 3.11
  */
 public class Caixa extends CaixaIdeia {
     public String nomeItem;

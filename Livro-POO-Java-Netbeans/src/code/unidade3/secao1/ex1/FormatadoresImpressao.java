@@ -3,8 +3,8 @@ package code.unidade3.secao1.ex1;
 import java.util.Locale;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Síntese de formatadores de impressão
  */
 public class FormatadoresImpressao {
     public static void main(String[] args) { 

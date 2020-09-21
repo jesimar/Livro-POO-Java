@@ -1,7 +1,6 @@
 package code.unidade2.secao3.heranca;
 
 /**
- *
  * @author Jesimar S. Arantes
  */
 public class Tetraedro extends Geom3D {

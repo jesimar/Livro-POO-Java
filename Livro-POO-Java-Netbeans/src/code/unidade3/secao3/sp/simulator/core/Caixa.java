@@ -3,6 +3,7 @@ package code.unidade3.secao3.sp.simulator.core;
 /**
  * Classe que modela a entidade Caixa.
  * @author Jesimar S. Arantes
+ * Código 3.29
  */
 public class Caixa extends CaixaIdeia {
     

@@ -1,8 +1,8 @@
 package code.unidade4.secao3.ex5;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 4.19
  */
 public class ThreadSleep {
     public static void main(String[] args) {

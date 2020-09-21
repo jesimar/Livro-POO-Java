@@ -15,8 +15,8 @@ import javafx.stage.Stage;
 import java.sql.Connection;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 4.14
  */
 public class AppGUI extends Application {
 

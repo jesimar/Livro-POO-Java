@@ -1,8 +1,8 @@
 package code.unidade3.secao1.sp.simulator.core;
 
 /**
- *
  * @author Jesimar da Silva Arantes
+ * Código 3.11
  */
 public abstract class RoboIdeia {
     protected float posicaoX;

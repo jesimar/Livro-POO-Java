@@ -4,8 +4,8 @@ import code.unidade2.secao3.sp.simulator.core.Caixa;
 import code.unidade2.secao3.sp.simulator.core.Robo;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 2.14
  */
 public class App {
     public static void main(String[] args) {

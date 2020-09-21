@@ -1,8 +1,8 @@
 package code.unidade4.secao3.ex4;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 4.18
  */
 public class Primo implements Runnable {
 

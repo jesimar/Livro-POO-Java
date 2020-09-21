@@ -12,8 +12,9 @@ import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
 
 /**
- *
- * @author jesimar
+ * Classe principal que inicia o simulador do robô.
+ * @author Jesimar S. Arantes
+ * Código 3.29
  */
 public class AppGUI extends Application {
     
@@ -48,6 +49,10 @@ public class AppGUI extends Application {
     private final Caixa caixaPrt = new Caixa("Caixa de Impressoras", 8, 525, 100, 40, 0.60f, 0.60f, 0.40f);
     
     
+    /**
+     * Ponto de entrada da aplicação.
+     * @param args lista de argumentos recebido via linha de comando.
+     */
     public static void main(String[] args) {
         launch(args);
     }

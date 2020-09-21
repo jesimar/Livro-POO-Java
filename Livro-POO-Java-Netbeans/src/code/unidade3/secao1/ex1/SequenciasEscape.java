@@ -1,8 +1,8 @@
 package code.unidade3.secao1.ex1;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Síntese de sequências de escape
  */
 public class SequenciasEscape {
     public static void main(String[] args) throws InterruptedException { 

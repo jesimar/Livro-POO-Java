@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 4.7
  */
 public class ManipulaArquivosTexto {
 
@@ -30,7 +30,6 @@ public class ManipulaArquivosTexto {
             }
         } catch (FileNotFoundException ex) {
             System.out.printf("Erro abertura do arquivo: %s.%n", ex.getMessage());
-            System.exit(0);
         }
     }
 
@@ -49,7 +48,6 @@ public class ManipulaArquivosTexto {
             System.exit(0);
         } catch (IOException ex) {
             System.out.printf("Erro na leitura do arquivo: %s.%n", ex.getMessage());
-            System.exit(0);
         }
     }
 

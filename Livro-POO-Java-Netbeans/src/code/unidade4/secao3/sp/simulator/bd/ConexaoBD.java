@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 4.20
  */
 public class ConexaoBD {
 

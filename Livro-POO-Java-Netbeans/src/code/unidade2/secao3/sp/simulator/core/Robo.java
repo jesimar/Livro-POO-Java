@@ -3,8 +3,8 @@ package code.unidade2.secao3.sp.simulator.core;
 import java.util.Objects;
 
 /**
- *
  * @author Jesimar da Silva Arantes
+ * Código 2.14
  */
 public class Robo {
     private float posicaoX;

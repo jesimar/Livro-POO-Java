@@ -3,6 +3,10 @@ package code.unidade3.secao1.ex1;
 import java.util.Locale;
 import java.util.Scanner;
 
+/**
+ * @author Jesimar da Silva Arantes
+ * Código 3.4
+ */
 public class ExemploLeituraDados {
     public static void main(String[] args) {
         //Pode ser necessário utilizar a linha abaixo caso vc queira garantir 

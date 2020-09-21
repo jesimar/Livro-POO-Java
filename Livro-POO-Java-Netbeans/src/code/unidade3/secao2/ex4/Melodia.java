@@ -6,6 +6,7 @@ import javax.sound.midi.MidiChannel;
  * O código a seguir foi baseado em: 
  * https://www.guj.com.br/t/piano-em-java-usando-synthesizer-som-nao-sai/128103/7
  * @author Jesimar S. Arantes.
+ * Código 3.21
  */
 public class Melodia {
     

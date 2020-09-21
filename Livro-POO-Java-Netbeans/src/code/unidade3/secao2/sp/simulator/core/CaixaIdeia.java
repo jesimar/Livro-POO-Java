@@ -3,6 +3,7 @@ package code.unidade3.secao2.sp.simulator.core;
 /**
  * Classe abstrata que modela a ideia de caixa.
  * @author Jesimar S. Arantes
+ * Código 3.22
  */
 public abstract class CaixaIdeia {
     protected int posX;

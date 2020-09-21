@@ -2,6 +2,10 @@ package code.unidade3.secao1.ex1;
 
 import java.util.Locale;
 
+/**
+ * @author Jesimar da Silva Arantes
+ * Código 3.3
+ */
 public class ArgsLinhaDeComandoMath {
     public static void main(String[] args) {
         Locale locale = new Locale("en", "US");

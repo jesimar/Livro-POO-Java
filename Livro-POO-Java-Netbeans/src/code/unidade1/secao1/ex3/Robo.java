@@ -1,8 +1,8 @@
 package code.unidade1.secao1.ex3;
 
 /**
- *
  * @author Jesimar da Silva Arantes
+ * Código 1.3
  */
 public class Robo {
     String nome;

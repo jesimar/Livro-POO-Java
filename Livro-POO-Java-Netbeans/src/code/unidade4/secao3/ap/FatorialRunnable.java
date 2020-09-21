@@ -1,8 +1,8 @@
 package code.unidade4.secao3.ap;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código Aula Prática
  */
 public class FatorialRunnable implements Runnable {
     @Override

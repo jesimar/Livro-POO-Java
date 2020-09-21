@@ -1,17 +1,18 @@
-package code.unidade3.secao3.fx2;
+package code.unidade3.secao3.fx;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
  */
 public class AppFatorial extends Application {
     
@@ -26,7 +27,6 @@ public class AppFatorial extends Application {
         Button btn = new Button();
         btn.setText("Calcular: " + numero + "!");
         Label lbl = new Label();
-        lbl.setTranslateY(40);
         btn.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -41,10 +41,12 @@ public class AppFatorial extends Application {
                 }
             }
         });
-        StackPane raiz = new StackPane();
-        raiz.getChildren().add(btn);
-        raiz.getChildren().add(lbl);        
-        Scene cena = new Scene(raiz, 300, 120);        
+        VBox vbox = new VBox(btn, lbl);
+        vbox.setPadding(new Insets(10, 10, 10, 10));
+        vbox.setSpacing(10);
+        vbox.setAlignment(Pos.TOP_CENTER);
+        vbox.setStyle("-fx-background-color: #BBDDFF;");
+        Scene cena = new Scene(vbox, 300, 120);        
         janela.setTitle("Aplicação Calcula Fatorial");
         janela.setScene(cena);
         janela.show();

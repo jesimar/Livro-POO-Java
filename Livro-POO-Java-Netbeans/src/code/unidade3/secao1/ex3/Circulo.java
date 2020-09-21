@@ -1,8 +1,8 @@
 package code.unidade3.secao1.ex3;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 3.10
  */
 public class Circulo extends Geom2D {
 

@@ -9,8 +9,8 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 3.23
  */
 public class AppHelloWorld extends Application {
 

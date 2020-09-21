@@ -1,4 +1,4 @@
-package code.unidade3.secao1.ex2;
+    package code.unidade3.secao1.ex2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,12 +8,12 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Tabela 3.4
  */
 public class LancarExceptions {
     public static void main(String[] args) {
-        int divPor0a = 5/0;
+        //int divPor0a = 5/0;
         try{
             int divPor0 = 5/0;
             System.out.println("Divisão por 0: " + divPor0);
@@ -56,9 +56,7 @@ public class LancarExceptions {
         }catch (InputMismatchException ex){
             System.out.println("ex: " + ex);
         }
-        
-        
-                      
+                 
         List<Integer> lista = new ArrayList<>();
         Integer[] valores = {0, 1, 2, 3, 4, 5, 6, 7};
         lista.addAll(Arrays.asList(valores));

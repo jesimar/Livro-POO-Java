@@ -1,5 +1,9 @@
 package code.unidade2.secao3.ap;
 
+/**
+ * @author Jesimar da Silva Arantes
+ * Código: Aula Prática
+ */
 public class Pessoa {
     
     protected String nome;

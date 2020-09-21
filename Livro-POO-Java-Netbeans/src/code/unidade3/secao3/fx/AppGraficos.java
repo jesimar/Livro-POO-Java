@@ -11,8 +11,8 @@ import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar S. Arantes
+ * Código 3.27
  */
 public class AppGraficos extends Application {
 

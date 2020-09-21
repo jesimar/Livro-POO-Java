@@ -1,8 +1,8 @@
 package code.unidade3.secao2.ex2;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.19
  */
 public class Livro implements Comparable<Livro>{
     
@@ -15,7 +15,7 @@ public class Livro implements Comparable<Livro>{
     }
 
     @Override
-    public int compareTo(Livro livro) {//vantagem de usar template não precisa fazer casting.
+    public int compareTo(Livro livro) {
         if (Math.abs(custo - livro.custo) < 0.001){
             return 0;
         }else if (custo > livro.custo){
@@ -23,21 +23,5 @@ public class Livro implements Comparable<Livro>{
         }else{
             return -1;
         }
-        //Linha especifica para comparção de double
-//        return Double.compare(custo, o.custo);
-//        return Integer.compare(custo, o.custo);
-    }
-    
-//    @Override
-//    public int compareTo(Livro o) {//vantagem de usar template não precisa fazer casting.
-//        if (nome.length() == o.nome.length()){
-//            return 0;
-//        }else if (nome.length() > o.nome.length()){
-//            return 1;
-//        }else{
-//            return -1;
-//        }
-//    }
-    
-    //citar que o método compareTo é muito utilizado para fazer ordenação.   
+    } 
 }

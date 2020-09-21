@@ -5,8 +5,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 4.20
  */
 public class Consultas {
     

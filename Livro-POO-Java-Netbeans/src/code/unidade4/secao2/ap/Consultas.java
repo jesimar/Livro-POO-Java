@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código Aula Prática
  */
 public class Consultas {
     

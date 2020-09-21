@@ -6,8 +6,8 @@ import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Synthesizer;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.21
  */
 public class Piano implements Instrumento {
 
@@ -22,7 +22,7 @@ public class Piano implements Instrumento {
         try {
             sintetizador.open();
             MidiChannel canal = sintetizador.getChannels()[0];
-            canal.programChange(1);//código piano
+            canal.programChange(1);//código ID do piano
             melodia.musica(canal, volume);
             sintetizador.close();
         } catch (MidiUnavailableException | InterruptedException ex) {

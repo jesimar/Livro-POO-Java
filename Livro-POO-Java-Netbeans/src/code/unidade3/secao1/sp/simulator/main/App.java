@@ -4,8 +4,8 @@ import code.unidade3.secao1.sp.simulator.core.Robo;
 import java.util.Scanner;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 3.11
  */
 public class App {
     public static void main(String[] args) {

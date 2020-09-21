@@ -1,8 +1,8 @@
 package code.unidade3.secao2.ex1;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.13
  */
 public class ExamploForEach {
     public static void main(String[] args) {

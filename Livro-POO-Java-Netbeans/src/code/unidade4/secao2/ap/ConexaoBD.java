@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- *
- * @author Jesimar S. Arantes
+ * @author Jesimar da Silva Arantes
+ * Código Aula Prática
  */
 public class ConexaoBD {
 

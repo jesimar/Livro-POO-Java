@@ -1,8 +1,8 @@
 package code.unidade4.secao3.ex3;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 4.17
  */
 public class ProgramaLoopComThread {
 
@@ -33,7 +33,7 @@ public class ProgramaLoopComThread {
             @Override
             public void run() {
                 while (true) {
-                    if (1 % 2 == 2) break; //codigo para que o compilador deixe eu executar o programa.
+                    if (1 % 2 == 2) break; //artimanha para compilador o código.
                     System.out.println("loop infinito");
                 }
             }

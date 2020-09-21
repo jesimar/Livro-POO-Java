@@ -18,8 +18,8 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar S. Arantes
+ * Código 3.24
  */
 public class AppFibonacci extends Application {
     
@@ -33,7 +33,6 @@ public class AppFibonacci extends Application {
         lbl.setTextFill(Color.DARKGREEN);
         lbl.setFont(Font.font("Serif", 25));
         TextField numField = new TextField();
-        //String url = this.getClass().getClassLoader().getResource("recursos/icons/mission.png");
         ImageView imgBtn = new ImageView(new Image(getClass()
                 .getResourceAsStream("recursos/icons/mission.png")));
         Button btn = new Button("Calcular", imgBtn);

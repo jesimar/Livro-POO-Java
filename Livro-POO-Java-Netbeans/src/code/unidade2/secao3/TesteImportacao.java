@@ -9,8 +9,8 @@ import static java.lang.System.out;
 import static java.lang.Math.*;
 
 /**
- *
  * @author Jesimar da Silva Arantes
+ * Código 2.8
  */
 public class TesteImportacao {
     public static void main(String[] args) {

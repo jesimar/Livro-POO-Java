@@ -6,6 +6,7 @@ import java.util.Scanner;
 /**
  * Classe principal que inicia o simulador do robô.
  * @author Jesimar S. Arantes
+ * Código 3.22
  */
 public class App {
     

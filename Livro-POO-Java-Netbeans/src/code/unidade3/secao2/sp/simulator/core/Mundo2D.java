@@ -3,6 +3,7 @@ package code.unidade3.secao2.sp.simulator.core;
 /**
  * Classe que modela o mundo bidimensional.
  * @author Jesimar S. Arantes
+ * Código 3.22
  */
 public class Mundo2D {
     

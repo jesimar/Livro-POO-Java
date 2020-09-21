@@ -1,8 +1,8 @@
 package code.unidade3.secao1.sp.simulator.core;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 3.11
  */
 public class Mundo2D {
     public final int DIM_X;

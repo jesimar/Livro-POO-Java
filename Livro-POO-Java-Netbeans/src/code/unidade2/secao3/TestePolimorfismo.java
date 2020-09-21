@@ -4,6 +4,10 @@ import code.unidade2.secao3.heranca.Circulo;
 import code.unidade2.secao3.heranca.Triangulo;
 import code.unidade2.secao3.heranca.Geom2D;
 
+/**
+ * @author Jesimar da Silva Arantes
+ * Código 2.13
+ */
 public class TestePolimorfismo{
     
     public static void main(String[] args) {

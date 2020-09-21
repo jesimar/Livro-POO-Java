@@ -1,15 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package code.unidade3.secao2.ap;
 
 import static code.unidade3.secao2.ap.TipoDeArma.*;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código Aula Prática
  */
 public class Main {
     

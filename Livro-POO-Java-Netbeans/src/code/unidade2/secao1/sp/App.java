@@ -1,8 +1,8 @@
 package code.unidade2.secao1.sp;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 2.6
  */
 public class App {
     public static void main(String[] args) {

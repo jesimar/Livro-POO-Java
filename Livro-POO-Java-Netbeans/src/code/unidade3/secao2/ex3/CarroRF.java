@@ -3,8 +3,8 @@ package code.unidade3.secao2.ex3;
 import java.util.Arrays;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.20
  */
 public class CarroRF implements Runnable {
     

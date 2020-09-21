@@ -3,8 +3,8 @@ package code.unidade3.secao2.ex3;
 import static code.unidade3.secao2.ex3.Direcao.*;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.20
  */
 public class Main {
     public static void main(String[] args) {

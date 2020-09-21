@@ -11,8 +11,8 @@ import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código Aula Prática
  */
 public class AppJogoGuerra extends Application {
     

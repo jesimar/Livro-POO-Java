@@ -1,8 +1,8 @@
 package code.unidade2.secao1.sp;
 
 /**
- *
  * @author Jesimar da Silva Arantes
+ * Código 2.6
  */
 public class Robo {
     float posicaoX;

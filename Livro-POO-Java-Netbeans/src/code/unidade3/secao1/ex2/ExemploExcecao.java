@@ -3,8 +3,7 @@ package code.unidade3.secao1.ex2;
 import java.util.Scanner;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
  */
 public class ExemploExcecao {
     public static void main(String[] args) {

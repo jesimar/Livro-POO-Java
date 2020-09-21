@@ -1,8 +1,8 @@
 package code.unidade3.secao2.ex1;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.17
  */
 public class Main {
     public static void main(String[] args) {

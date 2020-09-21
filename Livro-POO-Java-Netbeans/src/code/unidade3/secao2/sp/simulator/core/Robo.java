@@ -3,6 +3,7 @@ package code.unidade3.secao2.sp.simulator.core;
 /**
  * Classe que modela a entidade robô
  * @author Jesimar da Silva Arantes
+ * Código 3.22
  */
 public class Robo extends RoboIdeia {
 

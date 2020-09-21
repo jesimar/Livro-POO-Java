@@ -12,8 +12,8 @@ import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 4.6
  */
 public class AppGUI extends Application {
 

@@ -1,8 +1,8 @@
 package code.unidade4.secao3.ex2;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 4.16
  */
 public class ProgramaLoopSemThread {
 
@@ -15,7 +15,7 @@ public class ProgramaLoopSemThread {
         System.out.println("inicio");
         
         while (true) {
-            if (1 % 2 == 2) break; //codigo para que o compilador deixe eu executar o programa.
+            if (1 % 2 == 2) break; //artimanha para compilador o código.
             System.out.println("loop infinito");
         }
         

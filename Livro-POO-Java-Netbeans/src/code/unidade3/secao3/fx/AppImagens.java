@@ -9,8 +9,8 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar S. Arantes
+ * Código 3.26
  */
 public class AppImagens extends Application {
     

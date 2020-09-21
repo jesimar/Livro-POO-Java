@@ -1,8 +1,8 @@
 package code.unidade2.secao1.ex2;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 2.2
  */
 public class Matematica {
     static final double PI  = 3.1415926535;

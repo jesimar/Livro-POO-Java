@@ -1,8 +1,8 @@
 package code.unidade1.secao1.sp;
 
 /**
- *
  * @author Jesimar da Silva Arantes
+ * Código 1.4 - Situação-Problema
  */
 public class Robo {
     String nome = "R-ATM";

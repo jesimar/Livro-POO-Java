@@ -1,8 +1,8 @@
 package code.unidade3.secao1.ap;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código: Aula Prática
  */
 public class NaoTemRaizesReaisException extends Exception{
     public NaoTemRaizesReaisException(String message) {

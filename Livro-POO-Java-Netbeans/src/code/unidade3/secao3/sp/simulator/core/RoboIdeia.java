@@ -3,6 +3,7 @@ package code.unidade3.secao3.sp.simulator.core;
 /**
  * Classe abstrata que modela a ideia de robô.
  * @author Jesimar da Silva Arantes
+ * Código 3.29
  */
 public abstract class RoboIdeia {
     protected float posicaoX;

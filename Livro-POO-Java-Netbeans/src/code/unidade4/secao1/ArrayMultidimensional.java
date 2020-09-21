@@ -1,31 +1,32 @@
 package code.unidade4.secao1;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
  */
 public class ArrayMultidimensional {
     public static void main(String[] args) {
         ArrayMultidimensional array = new ArrayMultidimensional();
-        array.matriz();
-        array.array0();
-        array.array1();
-        array.array2();
-        array.array3();
-        array.array4();
-        array.array5();
+        array.matriz1();
+        array.matriz2();
+        array.matriz3();
+        array.matriz4();
+        array.matriz5();
+        array.matriz6();
     }
     
-    private void matriz(){
+    //Código 4.2
+    private void matriz1(){
+        System.out.println("Exemplo1");
         double matriz[][] = {{1.5, 5.2}, {3.6, 4.9}, {2.4, 8.1}}; 
         for (int i = 0; i < matriz.length; i++) { 
             for (int j = 0; j < matriz[i].length; j++) {
-                System.out.println("Array[" + i + "][" + j + "]: " + matriz[i][j]); 
+                System.out.println("M[" + i + "][" + j + "]: " + matriz[i][j]); 
             }
         }
     }
     
-    private void array0(){
+    private void matriz2(){
+        System.out.println("Exemplo2");
         int matrizInteiros[][] = {{1, 5}, {3, 4}, {2, 8}};
         System.out.println("Array[0][0]: " + matrizInteiros[0][0]);
         System.out.println("Array[0][1]: " + matrizInteiros[0][1]);
@@ -37,16 +38,8 @@ public class ArrayMultidimensional {
 //        System.out.println("Array0: " + vetorInteiros[-1]);//gera uma exceçao
     }
     
-    private void array1(){
-        int matrizInteiros[][] = {{1, 5}, {3, 4}, {2, 8}};
-        for (int i = 0; i < matrizInteiros.length; i++){
-            for (int j = 0; j < matrizInteiros[i].length; j++){
-                System.out.println("Array[" + i + "][" + j + "] " + matrizInteiros[i][j]);
-            }
-        }
-    }
-    
-    private void array2(){
+    private void matriz3(){
+        System.out.println("Exemplo3");
         float matrizFloat[][] = new float [3][2];
         matrizFloat[0][0] = 1.0f;
         matrizFloat[0][1] = 5.0f;
@@ -61,7 +54,8 @@ public class ArrayMultidimensional {
         }
     }
         
-    private void array3(){
+    private void matriz4(){
+        System.out.println("Exemplo4");
         int matriz[][][] = new int [4][3][2];
         int soma = 0;
         for (int i = 0; i < matriz.length; i++) {
@@ -83,21 +77,23 @@ public class ArrayMultidimensional {
         }
     }
     
-    private void array4(){
-        System.out.println("Exemplo4");
+    //Código 4.3
+    private void matriz5(){
+        System.out.println("Exemplo5");
         int mat[][] = {{2, 4, 7}, {6, 3}, {5, 1, 9, 0}};
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat[i].length; j++) {
-                System.out.println("mat[" + i + "][" + j + "] = " + mat[i][j]);
+                System.out.println("M[" + i + "][" + j + "] = " + mat[i][j]);
             }
         }
     }
     
-    private void array5(){
-        System.out.println("Exemplo5");
+    private void matriz6(){
+        System.out.println("Exemplo6");
         boolean mat[][] = new boolean[12][];
         for (int i = 0; i < mat.length; i++) {
-            if (i == 0 || i == 2 || i == 4 || i == 6 || i == 7 || i == 9 || i == 11) {
+            if (i == 0 || i == 2 || i == 4 || i == 6 || 
+                    i == 7 || i == 9 || i == 11) {
                 mat[i] = new boolean[31];
             }else if (i == 3 || i == 5 || i == 8 || i == 10) {
                 mat[i] = new boolean[30];

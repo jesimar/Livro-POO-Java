@@ -3,8 +3,8 @@ package code.unidade2.secao3.sp.simulator.core;
 import java.util.Objects;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 2.14
  */
 public class Caixa extends CaixaIdeia {
     public String nomeItem;

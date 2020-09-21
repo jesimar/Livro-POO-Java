@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 4.8
  */
 public class ManipulaArquivosCSV {
     

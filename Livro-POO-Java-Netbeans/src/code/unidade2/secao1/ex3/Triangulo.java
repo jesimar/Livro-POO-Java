@@ -1,8 +1,8 @@
 package code.unidade2.secao1.ex3;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 2.3
  */
 public class Triangulo{
 

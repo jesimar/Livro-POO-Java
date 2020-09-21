@@ -1,8 +1,8 @@
 package code.unidade3.secao1.ex2;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 3.5 e Código 3.6
  */
 public class Matematica {
     
@@ -88,35 +88,25 @@ public class Matematica {
     }
     
     public static void main(String[] args) {
-        
-            //        System.out.println("Divisão: " + div(20, 5));
-//        System.out.println("Divisão: " + div(5, 0));
-//        System.out.println("Soma: " + soma(5, 3));
-//        System.out.println("Soma: " + soma(1.4, 2));
-//        System.out.println("Soma: " + soma(2, 3.5));
-//        System.out.println("Soma: " + soma(3.2, 4.1));
-//        System.out.println("Multiplicação: " + mult(5, 3));
-//        System.out.println("Multiplicação: " + mult(3.2, 4.1));
-//        System.out.println("Multiplicação: " + mult(1.4, 2));
-//        System.out.println("Multiplicação: " + mult(2, 3.5));  
-//        try{
-//            printFatorial2(-1);
-//        }catch (IllegalArgumentException ex){
-//            System.out.println("Valor negativo: " + ex);
-//        }
+        System.out.println("Divisão: " + div(20, 5));
+        System.out.println("Divisão: " + div(5, 0));
+        try{
+            printFatorial2(-1);
+        }catch (IllegalArgumentException ex){
+            System.out.println("Valor negativo: " + ex);
+        }
         try {
             long fat = fatorial2(-1);
             System.out.println("fat: " + fat);
-        } catch (ValorNegativoException e) {
-            System.out.println("ex: " + e);
+        } catch (ValorNegativoException ex) {
+            System.out.println("ex: " + ex);
         }
-           
-//        try{
-//            exceptionChecked(-1);
-//        } catch (Exception ex) {
-//            System.out.println("ex: " + ex);
-//        } catch (Throwable ex) {
-//            Logger.getLogger(Matematica.class.getName()).log(Level.SEVERE, null, ex);
-//        }
+        try{
+            exceptionChecked(-1);
+        } catch (Exception ex) {
+            System.out.println("ex: " + ex);
+        } catch (Throwable ex) {
+            System.out.println("ex: " + ex);
+        }
     }
 }

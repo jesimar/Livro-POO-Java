@@ -1,5 +1,9 @@
 package code.unidade2.secao3.ap;
 
+/**
+ * @author Jesimar da Silva Arantes
+ * Código: Aula Prática
+ */
 public class App {
     public static void main(String[] args) {
         Aluno aluno1 = new Aluno("João da Silva", "01-02-2000", 'm',

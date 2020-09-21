@@ -1,8 +1,8 @@
 package code.unidade3.secao2.ex1;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.14 e Código 3.15
  */
 public class ExemploVarargs {
     public static void main(String[] args) {

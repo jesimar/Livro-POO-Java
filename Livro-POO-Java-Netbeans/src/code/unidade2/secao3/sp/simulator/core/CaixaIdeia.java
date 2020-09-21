@@ -1,8 +1,8 @@
 package code.unidade2.secao3.sp.simulator.core;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 2.14
  */
 public class CaixaIdeia {
     protected int posX;

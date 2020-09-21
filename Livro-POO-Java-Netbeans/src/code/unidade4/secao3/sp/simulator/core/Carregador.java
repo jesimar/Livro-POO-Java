@@ -4,8 +4,8 @@ import javafx.scene.image.ImageView;
 
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 4.20
  */
 public class Carregador implements Runnable {
     

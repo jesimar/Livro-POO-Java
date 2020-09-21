@@ -9,8 +9,8 @@ import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar S. Arantes
+ * Código 3.28
  */
 public class AppMovRobo extends Application {    
     private final int DIM_X = 300;

@@ -6,8 +6,8 @@ import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Synthesizer;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.21
  */
 public class Violoncelo implements Instrumento {
 
@@ -23,7 +23,7 @@ public class Violoncelo implements Instrumento {
         try {
             sintetizador.open();
             MidiChannel canal = sintetizador.getChannels()[0];
-            canal.programChange(42);//código violoncelo
+            canal.programChange(42);//código ID do violoncelo
             melodia.musica(canal, volume);
             sintetizador.close();
         } catch (MidiUnavailableException | InterruptedException ex) {

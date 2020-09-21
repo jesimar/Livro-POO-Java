@@ -10,8 +10,8 @@ import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código Aula Prática
  */
 public class AppGraficosStrings extends Application {
 

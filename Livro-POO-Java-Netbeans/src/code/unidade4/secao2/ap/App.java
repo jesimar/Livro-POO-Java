@@ -3,8 +3,8 @@ package code.unidade4.secao2.ap;
 import java.sql.Connection;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código Aula Prática
  */
 public class App {
     public static void main(String[] args) {

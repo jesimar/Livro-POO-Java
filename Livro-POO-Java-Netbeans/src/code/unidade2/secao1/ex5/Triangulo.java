@@ -1,8 +1,8 @@
 package code.unidade2.secao1.ex5;
 
 /**
- *
  * @author Jesimar S. Arantes
+ * Código 2.5
  */
 public class Triangulo extends Geom2D {
 

@@ -13,8 +13,8 @@ import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar S. Arantes
+ * Código 3.25
  */
 public class AppFigGeom2D extends Application {
     
@@ -54,7 +54,7 @@ public class AppFigGeom2D extends Application {
         
         Polygon poligono = new Polygon();
         poligono.getPoints().addAll(new Double[]{
-            0.0,   00.0,
+            0.0,   0.0,
             100.0, 0.0,
             50.0,  100.0 
         });

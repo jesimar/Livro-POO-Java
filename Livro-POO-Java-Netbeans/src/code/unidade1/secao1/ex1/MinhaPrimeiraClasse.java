@@ -1,8 +1,8 @@
 package code.unidade1.secao1.ex1;
 
 /**
- *
  * @author Jesimar da Silva Arantes
+ * Código 1.1
  */
 public class MinhaPrimeiraClasse {
     public static void main(String[] args) {

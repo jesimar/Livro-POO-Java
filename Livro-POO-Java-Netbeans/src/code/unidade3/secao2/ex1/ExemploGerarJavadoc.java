@@ -6,6 +6,7 @@ import java.sql.SQLException;
 /**
  * A presente classe tem por objetivo mostrar como criar a documentação de uma classe.
  * @author Jesimar S. Arantes
+ * Código 3.12
  * @version 1.0
  * @since 1.0
  */

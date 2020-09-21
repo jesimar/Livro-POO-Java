@@ -1,8 +1,8 @@
 package code.unidade3.secao1.ex2;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.8
  */
 public class ExemploAssercao {
     public static void main(String[] args) {  

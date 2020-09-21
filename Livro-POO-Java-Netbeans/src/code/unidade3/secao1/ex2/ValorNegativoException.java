@@ -1,8 +1,8 @@
 package code.unidade3.secao1.ex2;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.7
  */
 public class ValorNegativoException extends RuntimeException {
 

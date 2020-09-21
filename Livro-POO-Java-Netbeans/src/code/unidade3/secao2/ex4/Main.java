@@ -3,8 +3,8 @@ package code.unidade3.secao2.ex4;
 import javax.sound.midi.MidiUnavailableException;
 
 /**
- *
- * @author jesimar
+ * @author Jesimar da Silva Arantes
+ * Código 3.21
  */
 public class Main {
 
