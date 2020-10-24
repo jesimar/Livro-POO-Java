@@ -17,13 +17,14 @@ public class ConexaoBD {
     private final String nomeHost = "localhost";
     private final String portaBD = "3306";
     private final String nomeBD = "bd_empresa"; //colocar o nome do seu banco de dados
+    private final String tempo = "?useTimezone=true&serverTimezone=UTC";
     private final String nomeUsuario = "root";  //colocar o nome de seu usuario
     private final String senha = "";            //colocar a sua senha
     private String url = null;
 
     public ConexaoBD() {
         //"jdbc:mysql://localhost:3306/bd_empresa";
-        url = prefixoBD + nomeHost + ":" + portaBD + "/" + nomeBD;
+        url = prefixoBD + nomeHost + ":" + portaBD + "/" + nomeBD + tempo;
     }
 
     public Connection getConexao() {
